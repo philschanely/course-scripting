@@ -17,10 +17,10 @@ The course is broken up into "week/units" that generally run from Saturday to th
 
 Here is a bird's-eye-view of the course schedule. Additional details can be found in each link provided below.
 
-|               | Unit | Reading                          | Due 5pm Tue   | Due 5pm Fri                                           |
-|---------------|:-----|:---------------------------------|:--------------|:------------------------------------------------------|
+|               | Unit | Reading                          | Due 5pm Tue   | Due 5pm Fri                                         |
+|---------------|:-----|:---------------------------------|:--------------|:----------------------------------------------------|
 | Aug 23--25    | 0    | [Lesson 0][l0]                   |               | (Start Exercise 1) |
-| Aug 26--Sep 1 | 1    | [Lesson 1][l1] & [Lesson 2][l2]  | ---           | Exercise 1--2 *                                   |
+| Aug 26--Sep 1 | 1    | [Lesson 1][l1] & [Lesson 2][l2]  | Exercise 1    | Exercise 2 *                                        |
 | Sep 2--8      | 2    | [Lesson 3][l3] & [Lesson 4][l4]  | Exercise 3 *  | Exercise 4 * and [Project Deliverable 1a][pd1a] *** |
 | Sep 9--15     | 3    | [Lesson 5][l5] & [Lesson 6][l6]  | Exercise 5 *  | Exercise 6 * and [Project Deliverable 1b][pd1b] **  |
 | Sep 16--22    | 4    | [Lesson 7][l7] & [Lesson 8][l8]  | Exercise 7 *  | Exercise 8 * and [Project Deliverable 1c][pd1c] **  |
