@@ -13,6 +13,12 @@ In this module we'll take a short break from IxD1 and focus just on basic script
 
 Note that we skip some sections here but will return to them in later modules. You are welcome to skim them.
 
+### Presentation and Demo
+
+Watch this presentation and play along in the demo provided in Moodle. Use [this handout](/docs/vcd-3650-lesson-2.pdf) to take notes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XNujdelUXuM?list=PLuOViGmL7TfUvXLsGu6JfBCAq-rF2iSQz" frameborder="0" allowfullscreen></iframe>
+
 #### Study Questions
 
 1. What is progressive enhancement?
