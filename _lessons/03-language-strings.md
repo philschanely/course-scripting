@@ -57,6 +57,12 @@ A major topic we'll continue to expand on in the future is that of functions in 
 * **SKILL:** Call an existing function, with or without parameters.
 * What is variable scope?
 
+### Presentation and Demo
+
+Watch this presentation and play along in the demo provided in Moodle. Use [this handout](/docs/vcd-3650-lesson-3.pdf) to take notes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ah3nN_FnPg8" frameborder="0" allowfullscreen></iframe>
+
 ### Commit to Memory
 
 #### Keywords
