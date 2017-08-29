@@ -57,12 +57,12 @@ Here is a bird's-eye-view of the course schedule. Additional details can be foun
 [l13]: /lessons/14-ajax-restful-services.html
 [l13]: /lessons/15-sending-receiving.html
 
-[pd1a]: /activities/pd1a.html
-[pd1b]: /activities/pd1b.html
-[pd1c]: /activities/pd1c.html
-[pd1d]: /activities/pd1d.html
-[pd1e]: /activities/pd1e.html
-[pd1f]: /activities/pd1f.html
+[pd1a]: /activities/p1-overview.html
+[pd1b]: /activities/p1-overview.html
+[pd1c]: /activities/p1-overview.html
+[pd1d]: /activities/p1-overview.html
+[pd1e]: /activities/p1-overview.html
+[pd1f]: /activities/p1-overview.html
 [pd2a]: /activities/pd2a.html
 [pd2b]: /activities/pd2b.html
 [pd2c]: /activities/pd2c.html
