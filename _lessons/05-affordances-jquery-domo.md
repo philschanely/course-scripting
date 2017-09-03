@@ -72,10 +72,10 @@ First of all, we have three methods that allow us to both *retrieve* and to *cha
 * We *retrieve* plain text content of an element with `.text()` and *change* the content of the element by calling the same method but passing new content into it (pp.314--317):
 
     ```js
-    // Retrieve HTML content
+    // Retrieve plain text content
     var boxText = $("div.box").text();
 
-    // Change HTML content
+    // Change plain text content
     $("div.box").text("Let's each cake.");
     ```
 
@@ -107,13 +107,11 @@ Finally, we can replace or remove elements and their attributes:
 
     ```js
     // Replace a div.box with a p
-    $("div.box").replaceWith("<p>Let's each cake</p>");
+    $("div.box").replaceWith("<p>Let's eat cake</p>");
     ```    
 
 * We remove an element altogether with `.remove()` (p.316--317)
 * We remove an attribute from an element with `.removeAttr()` (p.316--317)
-
-
 * We insert content in relationship to existing content as follows (318--319):
     * `.before()` -- before and outside the selected element (such as inserting a new paragraph above a `ul`)
     * `.prepend()` -- inside the element before any of its inner contents (such as adding a new item at the beginning of a `ul`)
@@ -129,7 +127,15 @@ Finally, we can replace or remove elements and their attributes:
 5. **SKILL:** Read, write, and otherwise modify HTML and text content using jQuery's `.html()`, `.text()`, `.replaceWith()`, and `.remove()` methods.
 6. **SKILL:** Insert new content into an HTML document using jQuery's `.before()`, `.after()`, `.prepend()`, and `.append()` methods.
 7. **SKILL:** Retrieve, change, and remove attributes using jQuery's `.attr()` and `removeAttr()` methods.
-8. **SKILL:** Add and remove classes on HTML elements using `.addClass()`, `.removeClass()`, and `.toggleClass()`.            
+8. **SKILL:** Add and remove classes on HTML elements using `.addClass()`, `.removeClass()`, and `.toggleClass()`.   
+
+
+### Presentation and Demo
+
+Watch this presentation and play along in the demo provided in Moodle. Use [this handout](/docs/vcd-3650-lesson-5.pdf) to take notes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DNYpPFYV4_M" frameborder="0" allowfullscreen></iframe>         
+
 
 ### Commit to Memory
 
