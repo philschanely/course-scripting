@@ -23,6 +23,13 @@ In the last lesson we learned how we can select and manipulate DOM elements. We 
 
 ***Read Duckett, Chapter 7, pp.336--337.*** There's a lot of power packed into the methods covered in this pages.
 
+### Presentation and Demo
+
+Watch this presentation and play along in the demo provided in Moodle. Use [this handout](/docs/vcd-3650-lesson-6.pdf) to take notes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lYWozd2lm8w" frameborder="0" allowfullscreen></iframe>
+
+
 ### Commit to Memory
 
 Know the following DOM Traversal methods and the parameters they allow:
