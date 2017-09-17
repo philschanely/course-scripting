@@ -144,8 +144,14 @@ First, be sure you're familiar with HTML form elements. If you did not learn the
 
 ***Read Duckett, Chapter 7, pp.342-345.***
 
+### Presentation and Demo
+
+Watch this presentation and play along in the demo provided in Moodle. Use [this handout](/docs/vcd-3650-lesson-8.pdf) to take notes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EWvp-Rjpi5E" frameborder="0" allowfullscreen></iframe>
+
 #### Study Questions
 
 1. List some examples of selectors you can use with form elements in jQuery.
 2. List the methods and events you can use with form elements in jQuery.
-3. **SKILL:** Read and write the value of a form field using `.val()`. 
+3. **SKILL:** Read and write the value of a form field using `.val()`.
