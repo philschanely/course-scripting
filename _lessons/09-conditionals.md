@@ -12,7 +12,7 @@ Our first structures to investigate will be the conditional structures. By now y
 
 While this is only a few pages it is loaded with details we'll use throughout the rest of the course. As you probably found in your flow charts, decisions are often crucial to successful scripting.
 
-#### Study Questions
+### Study Questions
 
 1. **SKILL:** Create conditional blocks using `if` and `else`.
 2. **SKILL:** Create conditional blocks using `switch`.
@@ -20,3 +20,9 @@ While this is only a few pages it is loaded with details we'll use throughout th
 4. What is type coercion?
 5. What does it mean that a value is "truthy" or "falsy"?
 6. What is the difference between the `==` and `===` or between `!=` and `!==`?
+
+### Presentation and Demo
+
+Watch this presentation and play along in the demo provided in Moodle. Use [this handout](/docs/vcd-3650-lesson-9.pdf) to take notes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PhdhnSclFM8" frameborder="0" allowfullscreen></iframe>
