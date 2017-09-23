@@ -26,3 +26,10 @@ To debrief, note the following:
 1. What are loops in programming languages like JavaScript and what do they enable us to do?
 2. **SKILL:** Create vanilla JavaScript loops using `for`, `while`, and `do... while`.
 3. **SKILL:** Loop through a jQuery result set using `.each()`.
+
+
+### Presentation and Demo
+
+Watch this presentation and play along in the demo provided in Moodle. Use [this handout](/docs/vcd-3650-lesson-10.pdf) to take notes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qo5sbskzQcc" frameborder="0" allowfullscreen></iframe>
