@@ -54,8 +54,8 @@ Here is a bird's-eye-view of the course schedule. Additional details can be foun
 [l11]: /lessons/11-AJAX-JSON-time.html
 [l12]: /lessons/12-templating.html
 [l13]: /lessons/13-data-modeling.html
-[l13]: /lessons/14-ajax-restful-services.html
-[l13]: /lessons/15-sending-receiving.html
+[l14]: /lessons/14-ajax-restful-services.html
+[l15]: /lessons/15-sending-receiving.html
 
 [pd1]: /activities/p1-overview.html
 [pd2]: /activities/p2-overview.html
