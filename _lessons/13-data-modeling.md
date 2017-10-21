@@ -4,7 +4,9 @@ title: "13: Data Modeling"
 ---
 ### Data Modeling
 
-Coming soon!
+This topic is not covered in your book.
+
+> Video coming soon!
 
 ### Error Handling and Debugging
 
