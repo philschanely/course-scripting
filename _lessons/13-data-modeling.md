@@ -6,7 +6,7 @@ title: "13: Data Modeling"
 
 This topic is not covered in your book.
 
-> Video coming soon!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qRXWfAOVSyo" frameborder="0" allowfullscreen></iframe> 
 
 ### Error Handling and Debugging
 
