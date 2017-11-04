@@ -55,7 +55,16 @@ Task types will include a user-friendly name and a backend alias you can use for
 
 ##### Deliverable A: Design Drafts
 
-Use what you've imagined about this application based on the details above to create mockups of each of the screens and states that will be included.
+Use what you've imagined about this application based on the details above to create mockups of each of the screens and states that will be included. Be sure to include:
+
+* Login screen
+* Main task screen including tasks of different types as described above and that are overdue.
+* States for adding/editing tasks
+* States for adding/editing categories
+
+Here is a very rough main interface wireframe as a simple reference:
+
+![](/images/main-interface-sketch.png)
 
 ##### Deliverable B: Design Finals and Markup
 
@@ -65,6 +74,8 @@ Update your comps based on feedback from your professor. Then create markup and 
 
 Finish your static build out and then convert to templates based on the provided suggested structure of components. Begin to scaffold the main code blocks and event listeners.
 
+> Suggested scaffolding coming soon.
+
 ##### Deliverable D: Coding Progress
 
 Make progress coding, with the goals of making the following functional by the end of the week:
@@ -73,6 +84,8 @@ Make progress coding, with the goals of making the following functional by the e
 * User login
 * Main task screen showing all tasks
 
+> Suggested code structure coming soon.
+
 ##### Deliverable E: Final coding
 
 Make final progress, finishing out the following:
@@ -80,3 +93,5 @@ Make final progress, finishing out the following:
 * Task editor dialogue
 * Category editor dialogue
 * Main task list filters for categories
+
+> Suggested code structure coming soon.
