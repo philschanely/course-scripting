@@ -55,16 +55,22 @@ Task types will include a user-friendly name and a backend alias you can use for
 
 ##### Deliverable A: Design Drafts
 
-Use what you've imagined about this application based on the details above to create mockups of each of the screens and states that will be included. Be sure to include:
+Use what you've imagined about this application based on the details above to create mockups of each of the screens and states that will be included.
+
+Here is a very rough main interface wireframe as a simple reference:
+
+![](/images/main-interface-sketch.png)
+
+Your mockup should include your full intended style for the application: colors, type, icons, etc.
+
+Be sure to include the following screens and states in your submission:
 
 * Login screen
 * Main task screen including tasks of different types as described above and that are overdue.
 * States for adding/editing tasks
 * States for adding/editing categories
 
-Here is a very rough main interface wireframe as a simple reference:
-
-![](/images/main-interface-sketch.png)
+Create a project in InVision and sync your artboards from Sketch to this project. Link screens and states together as you're able. Then add your professor as a collaborator on your InVision project. Submit the deliverable in Moodle to indicate you're ready for feedback in InVision.
 
 ##### Deliverable B: Design Finals and Markup
 
