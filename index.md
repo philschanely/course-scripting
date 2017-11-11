@@ -33,7 +33,7 @@ Here is a bird's-eye-view of the course schedule. Additional details can be foun
 | Nov 4--10     | 10   | [Lesson 13][l13]                 | ---           | [Project Deliverable 2a][pd2] ** |
 | Nov 11--17    | 11   | [Lesson 14][l14]                 | ---           | [Project Deliverable 2b][pd2] ** |
 | Nov 18--24    | x    | Thanksgiving break               | ---           | --- |
-| Nov 25--Dec 1 | 12   | [Lesson 15][l15]                 | ---           | [Project Deliverable 2c][pd2] *  |
+| Nov 25--Dec 1 | 12   | [Lesson 15][l15]                 | Exercise 13 * | [Project Deliverable 2c][pd2] *  |
 | Dec 2--8      | 13   | ---                              | ---           | [Project Deliverable 2d][pd2] *  |
 | Dec 9--15     | 14   | ---                              | ---           | [Project Deliverable 2e][pd2] *  |
 
