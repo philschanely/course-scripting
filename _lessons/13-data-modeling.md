@@ -4,9 +4,9 @@ title: "13: Data Modeling"
 ---
 ### Data Modeling
 
-This topic is not covered in your book.
+This topic is not covered in your book. Watch this presentation and use [this handout](/docs/vcd-3650-lesson-13.pdf) to take notes.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qRXWfAOVSyo" frameborder="0" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qRXWfAOVSyo" frameborder="0" allowfullscreen></iframe>
 
 ### Error Handling and Debugging
 
