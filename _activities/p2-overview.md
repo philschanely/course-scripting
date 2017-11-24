@@ -24,31 +24,45 @@ Consider these user stories to understand how the application should function ([
 6. *ADDING CATEGORIES:* Now Sarah has a growing task list that is getting hard to manage. She remembers that she had the option of creating categories for her tasks so she pulls up the system again to take a look. She thinks she has work generally related to "home", "school", and "work", so those would be categories she'd like to add if she can figure out how. She clicks on a task she wants to organize as a "home" task. For the category option she sees "no category" is listed beside it but with an option to add a new category. She clicks this, and a box appears prompting her to name the category. She enters, "Home" and saves it. She is returned to her task where she can now see this new category is an option she can select. She selects it and saves the task. That was pretty easy. But now she also realizes that a portion of the main screen she had overlooked earlier shows her new "Home" category listed after "All tasks" (which appears "selected at this time") and also has an option to add a new category. She clicks this and sees the same box appear. She enters, "Work" and saves it. She repeats and creates the "School" category. Now all three appear in a list in a panel beside her main task list along with "All tasks". When she clicks on "Home" she sees just the one task she had assigned to that category earlier. She has many others she wants to add. She clicks on the "All tasks" option and edits another task to be part of the "Home" category. She repeats this a few more times until all the tasks she wants in "Home" are moved accordingly. She repeats the same thing for each of the other categories. This was a lot of work... from now on she'll put them in the right categories from the start!
 7. *MARKING OVERDUE TASKS:* Sarah notices something alarming... one of her tasks is past due! It is pretty obvious in her task list because the deadline is very eye-catching and also says, "overdue". She gets to work and quickly finishes the task, then returns to mark it complete.
 
+
 #### Data Structures
 
-Tasks will include the following data structure:
+**Users** will include the follow data structure:
 
-* Owner (defaults to current user)
-* Description
-* Due date (optional)
-* Category (optional)
-* Task type (preset from three types: normal (default), urgent, backburner)
-* Completion status (toggle on or off)
+| Field Name | Data type | Notes |
+|:-----------|:----------|--|
+| id         | Integer   | Unique to each user across the system |
+| name       | String    | User's name (as they desire to enter it) |
+| email      | Integer   | User's email address  |
+| password   | String    | Encrypted version of the password the user provides at signup |
 
-Users will include the follow data structure:
+**Tasks** will include the following data structure:
 
-* Name
-* Email
+| Field Name  | Data type | Notes |
+|:------------|:----------|--|
+| id          | Integer   | Unique to each task across the system |
+| owner       | String    | `id` the user who owns the task |
+| description | Integer   | |
+| dueDate     | Date      | Database dates are typically stored as YYYY-MM-DD |
+| category    | Integer   | `id` for the category to which this task belongs |
+| taskType    | Integer   | `id` for the task type assigned to this task |
+| status      | 0 or 1    | 0 when not complete and 1 when complete |
 
-Categories will have just a name and no other attributes.
+**Categories** will have the following data structure:
 
-Task types will include a user-friendly name and a backend alias you can use for classes in HTML and CSS based on the following table:
+| Field Name | Data type | Notes |
+|:-----------|:----------|--|
+| id         | Integer   | Unique to each category across the system |
+| name       | String    | |
+| owner      | Integer   | `id` for the User who created/owns the category |
 
-| Name       | Alias        |
-|:-----------|:-------------|
-| Normal     | type--norm   |
-| Backburner | type--back   |
-| Urgent     | type--urgent |
+**Task types** will include a user-friendly `name` and a backend `alias` you can use for classes in HTML and CSS. Rather than just spell out the data structure, here is the actual table of task types:
+
+| id | name       | alias        | order |
+|:---|:-----------|:-------------|:------|
+| 1  | Normal     | type--norm   | 1     |
+| 2  | Backburner | type--back   | 2     |
+| 3  | Urgent     | type--urgent | 3     |
 
 
 #### Deliverables
@@ -80,7 +94,16 @@ Update your comps based on feedback from your professor. Then create markup and 
 
 Finish your static build out and then convert to templates based on the provided suggested structure of components. Begin to scaffold the main code blocks and event listeners.
 
-> Suggested scaffolding coming soon.
+* `index.html` will be the main application page. As you build out the layouts you can start by placing all your markup here and building your styles. But eventually you will need to chunk out into the various templates below. So be sure to consider these as you go. `index.html` should contain your standard HTML document structure, but the contents of `<body>` will be swapped out between the login/signup process and the main task page.
+* `page-login.tpl.html` - this should contain all markup for your login page alone.
+* `page-signup.tpl.html` - this should contain all markup for your signup page alone.
+* `page-main.tpl.html` - this should contain the shell for the main application. All other templates will load inside this page as partials.
+* `modal-edit-category.tpl.html` - this should be a modal window that contains at least a form allowing users to add/update a category. Ensure that fields are named appropriately and that you have a hidden field for the category `id`. See the updated data structure tables above. **Form field `name` attributes should precisely match the corresponding field name.**
+* `modal-edit-task.tpl.html` - similar to the other modal, this should contain a form that allows the user to edit tasks. Ensure that a hidden field is in place for the task `id`.
+* `category-list.tpl.html` - the list of categories including the add category button.
+* `category.tpl.html` - a single category item to be loaded as a partial into `category-list.tpl.html`.
+* `task-list.tpl.html` - the list of tasks including the add task button.
+* `tasl.tpl.html` - a single task item to be loaded as a partial into `task-list.tpl.html`.
 
 ##### Deliverable D: Coding Progress
 
@@ -90,7 +113,7 @@ Make progress coding, with the goals of making the following functional by the e
 * User login
 * Main task screen showing all tasks
 
-> Suggested code structure coming soon.
+> Coding guidance and helper functions coming soon.
 
 ##### Deliverable E: Final coding
 
@@ -100,4 +123,4 @@ Make final progress, finishing out the following:
 * Category editor dialogue
 * Main task list filters for categories
 
-> Suggested code structure coming soon.
+> Coding guidance and helper functions coming soon.
