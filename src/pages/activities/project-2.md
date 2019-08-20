@@ -14,8 +14,8 @@ Project 2 provides you the opportunity to build a single page application. You w
 * Account setup for new users
 * Login form
 * View all existing tasks and filter by category
-* Add/edit/delete categories
-* Add/edit/delete tasks
+* Add/edit/delete categories modal panel
+* Add/edit/delete tasks modal panel
 
 #### User Stories
 
@@ -83,13 +83,15 @@ Your mockup should include your full intended style for the application: colors,
 
 Be sure to include the following screens and states in your submission:
 
-* Login screen
-* Main task screen including tasks of different types as described above and that are overdue.
-* States for adding/editing tasks
-* States for adding/editing categories
+* Login screen.
+* Account setup form include inputs for a name, email address, password, password confirmation.
+* Main task screen including tasks of different types as described above. Also consider how to flag overdue tasks (but don't confuse this with the task type).
+* Modal panel for adding/editing tasks.
+* Modal panel for adding/editing categories.
 
-Create a project in InVision and sync your artboards from Sketch to this project. Link screens and states together as you're able. Then add your professor as a collaborator on your InVision project. Submit the deliverable in Moodle to indicate you're ready for feedback in InVision.
+Also consider styles for buttons including states for normal and hover.
 
+Create a project in InVision and sync your artboards from Sketch to this project. Link screens and states together as you're able. Then add your professor as a collaborator on your InVision project. Include the shareable URL for your project in your submission.
 
 </Subpage>
 <Subpage slug="b">

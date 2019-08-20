@@ -32,7 +32,7 @@ For this deliverable, identify the product you will use for this project and do 
 2. Research sites that display the product to collect information and assets for your design.
 3. Sketch wireframes of your page layout on paper to pre-plan your overall layout and the content panels you'll include.
 
-Submit the corresponding assignment in Moodle to report on your progress.
+Report on your progress for your submission.
 
 </Subpage>
 <Subpage slug="b">
@@ -47,7 +47,7 @@ In this deliverable create a rough draft of your page layout design using Sketch
 8. Sync you dartboards from Sketch to InVision using Craft.
 9. Set up an interactive prototype of your project in InVision.
 
-Submit the corresponding assignment in Moodle to indicate you're ready for feedback.
+Include the shareable URL for your project in your submission. 
 
 </Subpage>
 <Subpage slug="c">
