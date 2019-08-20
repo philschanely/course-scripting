@@ -14,7 +14,7 @@ Let's extend what we can do with our scripts by learning about how to load exter
 
 ***Read Duckett, Chapter 8.***
 
-Watch this presentation and play along in the demo provided in Moodle. Use [this handout](/docs/vcd-3650-lesson-11.pdf) to take notes.
+Watch this presentation and play along in the demo provided in CULearn. Use [this handout](/docs/vcd-3650-lesson-11.pdf) to take notes.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X1VDYjCn3vc" frameborder="0" allowfullscreen></iframe>
 
