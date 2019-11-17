@@ -96,52 +96,50 @@ Create a project in InVision and sync your artboards from Sketch to this project
 </Subpage>
 <Subpage slug="b">
 
-### Deliverable B: Design Finals and Markup
+### Deliverable B: Design Finals and Static Build
 
-Update your comps based on feedback from your professor. Then create markup and initial styles to start a static build out of the application. For now you can use separate HTML pages for the different screens of the application.
+Update your comps based on feedback from your professor.
+
+Next we'll begin to do our coding work in the project space provided in Codio. Note that there is an `api` folder that contains the PHP backend code that will handle the REST API for this application. You can disregard this folder.
+
+Next create markup and initial styles to start a static build out of the application. For now you can use separate HTML pages for the different screens of the application just as you have for most of your projects in the past. The styles you set up will remain intact but the pages you set up will be broken down into separate templates in the next deliverable. No JavaScript is needed at this point.
 
 </Subpage>
 <Subpage slug="c">
 
-### Deliverable C: Scaffolding and templates
+### Deliverable C: Static Build and Templates
 
-Finish your static build out and then convert to templates based on the provided suggested structure of components. Begin to scaffold the main code blocks and event listeners.
+Finish your static build out of your interface pages.
+
+Then convert to templates and core files as follows:
 
 * `index.html` will be the main application page. As you build out the layouts you can start by placing all your markup here and building your styles. But eventually you will need to chunk out into the various templates below. So be sure to consider these as you go. `index.html` should contain your standard HTML document structure, but the contents of `<body>` will be swapped out between the login/signup process and the main task page.
-* `page-login.tpl.html` - this should contain all markup for your login page alone.
-* `page-signup.tpl.html` - this should contain all markup for your signup page alone.
-* `page-main.tpl.html` - this should contain the shell for the main application. All other templates will load inside this page as partials.
-* `modal-edit-category.tpl.html` - this should be a modal window that contains at least a form allowing users to add/update a category. Ensure that fields are named appropriately and that you have a hidden field for the category `id`. See the updated data structure tables above. **Form field `name` attributes should precisely match the corresponding field name.**
-* `modal-edit-task.tpl.html` - similar to the other modal, this should contain a form that allows the user to edit tasks. Ensure that a hidden field is in place for the task `id`.
-* `category-list.tpl.html` - the list of categories including the add category button.
-* `category.tpl.html` - a single category item to be loaded as a partial into `category-list.tpl.html`.
-* `task-list.tpl.html` - the list of tasks including the add task button.
-* `tasl.tpl.html` - a single task item to be loaded as a partial into `task-list.tpl.html`.
+* `templates/page-login.tpl.html` - this should contain all markup for your login page alone.
+* `templates/page-signup.tpl.html` - this should contain all markup for your signup page alone.
+* `templates/page-main.tpl.html` - this should contain the shell for the main application. All other templates will load inside this page as partials.
+* `templates/modal-edit-category.tpl.html` - this should be a modal window that contains at least a form allowing users to add/update a category. Ensure that fields are named appropriately and that you have a hidden field for the category `id`. See the updated data structure tables above. **Form field `name` attributes should precisely match the corresponding field name.**
+* `templates/modal-edit-task.tpl.html` - similar to the other modal, this should contain a form that allows the user to edit tasks. Ensure that a hidden field is in place for the task `id`.
+* `templates/category-list.tpl.html` - the list of categories including the add category button.
+* `templates/category.tpl.html` - a single category item to be loaded as a partial into `category-list.tpl.html`.
+* `templates/task-list.tpl.html` - the list of tasks including the add task button.
+* `templates/tasl.tpl.html` - a single task item to be loaded as a partial into `task-list.tpl.html`.
+
+Here's a diagram of the page and template structure we'll eventually wire together (right-click and choose "Open Image in New Tab" or similar to see at full size):
+
+![](/images/template-structure.png)
 
 </Subpage>
 <Subpage slug="d">
 
-### Deliverable D: Coding Progress
+### Deliverable D: Scripting Progress
 
-Make progress coding, with the goals of making the following functional by the end of the week:
-
-* User account setup
-* User login
-* Main task screen showing all tasks
-
-> Coding guidance and helper functions coming soon.
+Use the instructions provided in the Guide in Codio to begin to script your application. Aim to finish through the end of "Coding Part 1" in the guide.
 
 </Subpage>
 <Subpage slug="final">
 
 ##### Final Submission
 
-Make final progress, finishing out the following:
-
-* Task editor dialogue
-* Category editor dialogue
-* Main task list filters for categories
-
-> Coding guidance and helper functions coming soon.
+Finish up the remaining work on your application and complete it by the deadline.
 
 </Subpage>
