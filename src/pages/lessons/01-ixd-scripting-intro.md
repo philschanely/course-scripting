@@ -4,7 +4,7 @@ title:  "Humans, Computers, and the Interactive Imperative"
 number: 1
 cover: "https://source.unsplash.com/kCrrUx7US04"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="intro-to-ixd">
 
@@ -17,10 +17,15 @@ For each link below, just provide your email address and you'll get a link to do
 * [Interaction Design Best Practices: Mastering the Tangibles][ixd1] - we'll call this the "IxD1" text.
 * [Interaction Design Best Practices: Mastering the Intangibles][ixd2] - we'll call this the "IxD2" text.
 
-***Read the following from IxD1:***
+
+<Callout color="secondary">
+
+Read the following from IxD1:
 
 * Introduction
 * The Interactive Imperative
+
+</Callout>
 
 #### Study Questions
 
@@ -35,11 +40,16 @@ For each link below, just provide your email address and you'll get a link to do
 
 Let's switch gears and get started learning about scripting!
 
-***Read the following from the Duckett text:***
+
+<Callout color="secondary">
+
+Read the following from the Duckett text:
 
 * Introduction
 * Chapter 1a: What is a script...
 * Chapter 1b: How do computers fit in...
+
+</Callout>
 
 #### Study Questions
 

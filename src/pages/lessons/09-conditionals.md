@@ -4,7 +4,7 @@ title: "Conditional Structures"
 number: 9
 cover: "https://source.unsplash.com/H58bnmnedTc"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="decisions">
 
@@ -14,7 +14,11 @@ We've been building our set of tools in JavaScript and have focused primarily on
 
 Our first structures to investigate will be the conditional structures. By now you've considered how decisions impact a script through your flow chart exercises. Adding conditional structures in our JavaScript
 
-***Read Duckett, Chapter 4, pp.160-169.***
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 4, pp.160-169.
+
+</Callout>
 
 While this is only a few pages it is loaded with details we'll use throughout the rest of the course. As you probably found in your flow charts, decisions are often crucial to successful scripting.
 

@@ -3,7 +3,7 @@ title: Project 2
 type: activities
 cover: "https://source.unsplash.com/RLw-UC03Gwc"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage } from "course-components";
 
 <Subpage slug="overview">
 

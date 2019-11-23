@@ -3,7 +3,7 @@ title: Project 1
 type: activities
 cover: "https://source.unsplash.com/kVf7VRgg4p8"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage } from "course-components";
 
 <Subpage slug="overview">
 
@@ -47,7 +47,7 @@ In this deliverable create a rough draft of your page layout design using Sketch
 8. Sync you dartboards from Sketch to InVision using Craft.
 9. Set up an interactive prototype of your project in InVision.
 
-Include the shareable URL for your project in your submission. 
+Include the shareable URL for your project in your submission.
 
 </Subpage>
 <Subpage slug="c">

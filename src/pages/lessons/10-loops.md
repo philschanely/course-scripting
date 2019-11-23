@@ -4,7 +4,7 @@ title: "Loop Structures"
 number: 10
 cover: "https://source.unsplash.com/sk59I1qRfEM"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="loops">
 
@@ -12,11 +12,19 @@ import Subpage from "../../components/subpage.js"
 
 Continuing our survey of utilitarian structures in JavaScript we turn to discuss how we create repeating blocks of code.
 
-***Read Duckett, Chapter 4, pp.170-182.***
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 4, pp.170-182.
+
+</Callout>
 
 This is another short section of reading but it packs a big power punch for processing. However, jQuery also builds on this for some of our most common use cases. Very often we want to repeat an operation for each item we selected using jQuery. Thankfully we have another shortcut for such common operations.
 
-***Read Duckett, Chapter 7, pp.324-325.***
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 7, pp.324-325.
+
+</Callout>
 
 To debrief, note the following:
 

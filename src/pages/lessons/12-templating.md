@@ -4,7 +4,7 @@ title: "Templating"
 number: 12
 cover: "https://source.unsplash.com/5pknRFJwXb4"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage } from "course-components";
 
 <Subpage slug="templating">
 

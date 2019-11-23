@@ -4,7 +4,7 @@ title:  "Visual Direction and Complex Data Types"
 number: 4
 cover: "https://source.unsplash.com/HGNtPpNQBcI"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="intro-to-visuals">
 
@@ -12,7 +12,12 @@ import Subpage from "../../components/subpage.js"
 
 Having spent time thinking distinctly about the words we use in interaction design, we now turn to think critically about the visual design we implement.
 
-***Read IxD1, Chapter 4: Visual Direction in Interaction Design.***
+
+<Callout lead={true} color="secondary">
+
+Read IxD1, Chapter 4: Visual Direction in Interaction Design.
+
+</Callout>
 
 #### Study Questions
 
@@ -28,7 +33,12 @@ Having spent time thinking distinctly about the words we use in interaction desi
 
 The data types we've discussed several primitive data types so far: numbers, strings, and booleans. These provide very basic kinds of data we can store, but we often run into cases where we'd benefit from being able to store sets of data, particularly, lists of similar data.
 
-***Read Duckett, Chapter 2, pp.70--73*** to learn about the Array data type.
+
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 2, pp.70--73 to learn about the Array data type.
+
+</Callout>
 
 #### Study Questions
 
@@ -46,11 +56,21 @@ Its time to get serious about objects. Having studied the other data types, and 
 more context to consider what makes objects different and useful. We'll start with a general reading on objects
 and how to construct them.
 
-***Read Duckett, Chapter 3, pp.100--119*** to learn about the object data type.
+
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 3, pp.100--119 to learn about the object data type.
+
+</Callout>
 
 Now let's take a look at some of the objects already set up and available to you through JavaScript.
 
-***Read Duckett, Chapter 3, pp.120--139*** to learn about built-in objects.
+
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 3, pp.120--139 to learn about built-in objects.
+
+</Callout>
 
 #### Study Questions
 
