@@ -4,7 +4,7 @@ title:  "Affordances and Introduction to jQuery and DOM"
 number: 5
 cover: "https://source.unsplash.com/W_K6j6OQBDg"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="affordances">
 
@@ -12,7 +12,11 @@ import Subpage from "../../components/subpage.js"
 
 Visual design for interactive sites and applications moves quickly beyond the elements of the layout that the user sees, reads, and otherwise processes. Interactive design involves action and change. In order to give users a sense of what can or should be possible in the design we need to think about affordances and signifiers.
 
-***Read IxD1, Chapter 5: Affordances***
+<Callout lead={true} color="secondary">
+
+Read IxD1, Chapter 5: Affordances
+
+</Callout>
 
 #### Study Questions
 
@@ -26,7 +30,13 @@ Visual design for interactive sites and applications moves quickly beyond the el
 
 Last of all this week we look deeper at the DOM and some options we have for working with the DOM in JavaScript.
 
-***Read Duckett, Chapter 5, pp.183--189*** for a formal overview of the DOM that expands on the other summaries you have read to date.
+
+<Callout lead={true} color="secondary">
+Read Duckett, Chapter 5, pp.183--189
+
+<small>for a formal overview of the DOM that expands on the other summaries you have read to date.</small>
+
+</Callout>
 
 Pages 188--189 introduce some JavaScript DOM methods and properties that allow us to do stuff with the DOM tree. However, these are a little complicated to access using basic JavaScript. jQuery has a lot of shortcuts for these DOM features and expands on them with other helpful tools.
 
@@ -37,7 +47,11 @@ Pages 188--189 introduce some JavaScript DOM methods and properties that allow u
 
 So let's make another big shift and look formally at how jQuery can be used.
 
-***Read Duckett, Chapter 7, pp.293-305*** for a formal introduction to jQuery.
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 7, pp.293-305 for a formal introduction to jQuery.
+
+</Callout>
 
 Note that pp.302--303 expound on how to use selectors in jQuery. These are overall very similar to the selectors you use with CSS!
 
@@ -56,7 +70,11 @@ $(document).ready(function() {
 });
 ```
 
-***Read Duckett, Chapter 7, pp.312, 313*** for a formal explanation of this feature.
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 7, pp.312, 313 for a formal explanation of this feature.
+
+</Callout>
 
 </Subpage>
 <Subpage slug="jquery-and-dom-overview">
@@ -65,7 +83,10 @@ $(document).ready(function() {
 
 Now more about some aspects of jQuery.
 
-***Read Duckett, Chapter 7, pp.306, 307, 310, 311*** for more information about how we can:
+
+<Callout color="secondary">
+
+Read Duckett, Chapter 7, pp.306, 307, 310, 311 for more information about how we can:
 
 * Select individual DOM elements with jQuery (306).
 * Select groups of DOM elements with jQuery (306).
@@ -73,6 +94,8 @@ Now more about some aspects of jQuery.
 * Change content of a DOM element (307).
 * Easily apply changes to groups of elements (310).
 * Chain jQuery commands in sequence (311).
+
+</Callout>
 
 All these give us background for things we can do with jQuery selections.
 

@@ -4,7 +4,7 @@ title: "Sending and Receiving Data"
 number: 15
 cover: "https://source.unsplash.com/9K9ipjhDdks"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage } from "course-components";
 
 <Subpage slug="sending-and-receiving-data">
 

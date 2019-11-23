@@ -4,7 +4,7 @@ title:  "Introduction"
 number: 0
 cover: "https://source.unsplash.com/_UeY8aTI6d0"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage } from "course-components";
 
 <Subpage slug="welcome">
 

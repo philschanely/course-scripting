@@ -4,7 +4,7 @@ title:  "Numbers and Math"
 number: 2
 cover: "https://source.unsplash.com/aIYFR0vbADk"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="numbers-and-math">
 
@@ -12,10 +12,15 @@ import Subpage from "../../components/subpage.js"
 
 In this module we'll take a short break from IxD1 and focus just on basic scripting principles. Specific scripting skills we'll cover include:
 
-***Read the following from the Duckett text:***
+
+<Callout color="secondary">
+
+Read the following from the Duckett text:
 
 * Ch. 1c
 * Ch. 2, pp.53-63, 69, 74-77
+
+</Callout>
 
 Note that we skip some sections here but will return to them in later modules. You are welcome to skim them.
 

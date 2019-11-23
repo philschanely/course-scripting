@@ -4,7 +4,7 @@ title: "Data Modeling"
 number: 13
 cover: "https://source.unsplash.com/X_IvVDuHvDQ"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="data-modeling">
 
@@ -19,6 +19,12 @@ This topic is not covered in your book. Watch this presentation and use [this ha
 
 ### Error Handling and Debugging
 
-***Read Duckett, Ch. 10*** for tips on how to check for and catch errors as well as how to debug live scripts.
+<Callout lead={true} color="secondary">
+
+Read Duckett, Ch. 10
+
+<small>for tips on how to check for and catch errors as well as how to debug live scripts.</small>
+
+</Callout>
 
 </Subpage>

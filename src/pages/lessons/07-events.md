@@ -4,7 +4,7 @@ title: "Events"
 number: 7
 cover: "https://source.unsplash.com/_Ch_onWf38o"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="events">
 
@@ -12,7 +12,12 @@ import Subpage from "../../components/subpage.js"
 
 Returning to our survey of JavaScript and jQuery concepts, we now turn to the exciting topic of events.
 
-***Read Duckett, Chapter 6, pp.243--250, 260--263, 266--267.***
+
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 6, pp.243--250, 260--263, 266--267.
+
+</Callout>
 
 These pages discuss the basic gyst of what events are and some introduction to how to work with them in straight up JavaScript. In a moment we'll look at how jQuery once again saves the day with some shortcuts. But first note that pp.246--247 list the different events that can be triggered in a webpage.
 
@@ -20,11 +25,21 @@ Also, we're going to expound more on the 3 steps discussed on pp.248--249 for ho
 
 Now let's look at the jQuery methods that make things a little simpler.
 
-***Read Duckett, Chapter 7, pp.326--331.***
+
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 7, pp.326--331.
+
+</Callout>
 
 Finally, let's take one more look at what we've been calling the Document Ready Event (DRE) all-in-one now that we know more about events.
 
-***Read Duckett, Chapter 7, pp.312-313.***
+
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 7, pp.312-313.
+
+</Callout>
 
 So what we've been doing all this time is putting our code inside an event handler that waits for our full document to load before it is processed. When the document is ready, it issues an event that we can respond to with the code we put in this declaration block. We do this to ensure that all the DOM elements we expect to work with are present before we dive in with JavaScript to manipulate them. Page 313 shows an even shorter version of the DRE all-in-one that you're welcome to start using if you like.
 

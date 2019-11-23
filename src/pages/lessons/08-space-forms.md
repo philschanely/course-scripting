@@ -4,7 +4,7 @@ title: "Space and Forms"
 number: 8
 cover: "https://source.unsplash.com/4kEWGyAtz34"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="embracing-space">
 
@@ -12,7 +12,11 @@ import Subpage from "../../components/subpage.js"
 
 Let's step back into IxD1 to look at the role space plays in interactive interfaces.
 
-***Read IxD1, Chapter 7: Embracing Space in Interaction Design***
+<Callout lead={true} color="secondary">
+
+Read IxD1, Chapter 7: Embracing Space in Interaction Design
+
+</Callout>
 
 Note that the item labeled #3 on p.110 is formatted incorrectly. It looks like a third implication of the law of proximity, but it is supposed to be the third function white space plays in interaction design.
 
@@ -26,7 +30,7 @@ Note that the item labeled #3 on p.110 is formatted incorrectly. It looks like a
 6. Explain the Law of Context.
 
 </Subpage>
-<Subpage slug="">
+<Subpage slug="form-review">
 
 ### Form Review
 
@@ -153,7 +157,11 @@ One last set of selectors to understand when working with jQuery is those that p
 
 First, be sure you're familiar with HTML form elements. If you did not learn these when you took earlier Web Design classes, please see the provided review documents.
 
-***Read Duckett, Chapter 7, pp.342-345.***
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 7, pp.342-345.
+
+</Callout>
 
 #### Study Questions
 

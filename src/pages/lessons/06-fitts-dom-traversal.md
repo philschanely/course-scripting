@@ -4,7 +4,7 @@ title: "Fitts' Law, and DOM Traversal"
 number: 6
 cover: "https://source.unsplash.com/v3bWNXeInQA"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="fitts-law">
 
@@ -12,7 +12,12 @@ import Subpage from "../../components/subpage.js"
 
 Visual design for interactive sites and applications moves quickly beyond the elements of the layout that the user sees, reads, and otherwise processes. Interactive design involves action and change. In order to give users a sense of what can or should be possible in the design we need to think about affordances and signifiers.
 
-***Read IxD1, Chapter 6: Size and Distance in Interaction Design***
+
+<Callout lead={true} color="secondary">
+
+Read IxD1, Chapter 6: Size and Distance in Interaction Design
+
+</Callout>
 
 #### Study Questions
 
@@ -29,7 +34,14 @@ Visual design for interactive sites and applications moves quickly beyond the el
 
 In the last lesson we learned how we can select and manipulate DOM elements. We can also use the DOM to move from one element to another element, which opens up a whole new level of working with our HTML pages.
 
-***Read Duckett, Chapter 7, pp.336--337.*** There's a lot of power packed into the methods covered in this pages.
+
+<Callout lead={true} color="secondary">
+
+Read Duckett, Chapter 7, pp.336--337.
+
+<small>There's a lot of power packed into the methods covered in this pages.</small>
+
+</Callout>
 
 </Subpage>
 <Subpage slug="presentation-and-demo">

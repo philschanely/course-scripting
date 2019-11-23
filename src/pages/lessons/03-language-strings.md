@@ -4,7 +4,7 @@ title:  "Words and Truth"
 number: 3
 cover: "https://source.unsplash.com/AEywmFmpWSY"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage, Callout } from "course-components";
 
 <Subpage slug="language-in-ixd">
 
@@ -12,9 +12,18 @@ import Subpage from "../../components/subpage.js"
 
 In this module we return to IxD1 to look at how the words we use in our designs affect interactions.
 
-***Read IxD1, Chapter 2: Fundamentals of Language in IxD***
 
-***Read IxD1, Chapter 3: Create Amazing User Conversations with Your Copy.***
+<Callout lead={true} color="secondary">
+
+Read IxD1, Chapter 2: Fundamentals of Language in IxD
+
+</Callout>
+
+<Callout lead={true} color="secondary">
+
+Read IxD1, Chapter 3: Create Amazing User Conversations with Your Copy.
+
+</Callout>
 
 #### Study Questions
 
@@ -35,10 +44,15 @@ In this module we return to IxD1 to look at how the words we use in our designs 
 
 Now let's switch gears and look a little more about programming, specifically working with strings in JavaScript.
 
-***Read the following from the Duckett text:***
+
+<Callout color="secondary">
+
+Read the following from the Duckett text:
 
 * Ch.2, pp.64--68, 78--84 to learn basics of how to work with booleans and strings.
 * Ch.4, pp.145--159 to learn about comparison operators and logical operators and a little more about booleans.
+
+</Callout>
 
 #### Study Questions
 
@@ -58,7 +72,11 @@ What are logical operators and how are they used?
 
 A major topic we'll continue to expand on in the future is that of functions in JavaScript.
 
-***Read Duckett, Ch.3, pp.85--99*** to learn more about functions.
+<Callout lead={true} color="secondary">
+
+Read Duckett, Ch.3, pp.85--99 to learn more about functions.
+
+</Callout>
 
 #### Study Questions
 

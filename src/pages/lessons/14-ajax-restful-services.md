@@ -4,7 +4,7 @@ title: "AJAX and RESTful Services"
 number: 14
 cover: "https://source.unsplash.com/AjaOjlImLjM"
 ---
-import Subpage from "../../components/subpage.js"
+import { Subpage } from "course-components";
 
 <Subpage slug="ajax-and-restful-services">
 
